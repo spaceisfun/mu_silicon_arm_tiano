@@ -145,7 +145,6 @@ SendMemoryPermissionRequest (
   @retval EFI_ACCESS_DENIED       Access denied.
   @retval EFI_OUT_OF_RESOURCES    Out of memory to perform operation.
 **/
-STATIC
 EFI_STATUS
 GetMemoryPermissions (
   IN  EFI_PHYSICAL_ADDRESS  BaseAddress,

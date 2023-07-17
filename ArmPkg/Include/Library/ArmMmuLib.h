@@ -83,6 +83,14 @@ ArmClearMemoryRegionReadOnly (
   IN  UINT64                Length
   );
 
+
+
+EFI_STATUS
+GetMemoryPermissions (
+  IN  EFI_PHYSICAL_ADDRESS  BaseAddress,
+  OUT UINT32                *MemoryAttributes
+  );
+
 VOID
 EFIAPI
 ArmReplaceLiveTranslationEntry (
